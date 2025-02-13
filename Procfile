@@ -1,1 +1,2 @@
-web: uvicorn server:app --host 0.0.0.0 --port $PORT
+web: python -m uvicorn server:app --host 127.0.0.1 --port 8000 --reload
+
